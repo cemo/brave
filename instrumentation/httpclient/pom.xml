@@ -24,6 +24,11 @@
       <artifactId>httpclient</artifactId>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient-cache</artifactId>
+      <scope>optional</scope>
+    </dependency>
 
     <dependency>
       <groupId>${project.groupId}</groupId>
